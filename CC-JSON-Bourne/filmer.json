@@ -1,5 +1,8 @@
 [
-  { "title": "The Bourne Identity", "stars": 4 },
+  {
+    "title": "The Bourne Identity",
+    "stars": 4
+  },
   {
     "title": "The Bourne Supremacy",
     "stars": 3

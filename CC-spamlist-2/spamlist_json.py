@@ -13,10 +13,7 @@ for email in emails_list: # Loopa igenom hela marketing_data-listan
     fixed_emails_list.append(email) # Lägg till vår fixade lista
 
 fixed_emails_list.sort() # Sortera i alfabetisk ordning
-
-fixed_emails_json = json.dumps(fixed_emails_list, indent=2)
-
-print(fixed_emails_json)
+fixed_emails_json = json.dumps(fixed_emails_list, indent=2) # Konvertera till JSON så att det går att spara i en fil
 
 with open('refined_emails.json', 'w') as f:
     f.write(fixed_emails_json)
